@@ -9,7 +9,7 @@ int main()
 	scanf("%s",arr);
 	p=arr;
 	l=strlen(arr);
-	for(i=0,j=l;i<j;i++,j--)
+	for(i=0,j=l;i<j;i++,j--)		//swapping first and last char gradually to make it reverse
 	{
 		ch=*(p+i);
 		*(p+i)=*(p+j-1);
