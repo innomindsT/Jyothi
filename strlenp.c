@@ -6,7 +6,7 @@ int main()
 	printf("enter a string:");
 	scanf("%s",str);
 	p=str;
-	for(i=0;*(p+i)!='\0';i++)
+	for(i=0;*(p+i)!='\0';i++)	//count increases when char!=\0
 		count++;
 	printf("len:%d",count);	
 	
